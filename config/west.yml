@@ -2,10 +2,12 @@ manifest:
   remotes:
     - name: slicemk
       url-base: https://github.com/slicemk
+     - name: ftc
+      url-base: https://github.com/ftc
   projects:
     - name: zmk
-      remote: slicemk
-      revision: main
+      remote: ftc
+      revision: mouse-ftc
       import: app/west.yml
   self:
     path: config
