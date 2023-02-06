@@ -2,7 +2,7 @@ manifest:
   remotes:
     - name: slicemk
       url-base: https://github.com/slicemk
-     - name: ftc
+    - name: ftc
       url-base: https://github.com/ftc
   projects:
     - name: zmk
