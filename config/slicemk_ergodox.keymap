@@ -63,15 +63,15 @@
 		};
   		layer_4 {
   			bindings = <
- 				&none  &none &none          &none                     &none                   &none &none        &none &none &none              &none                 &none     &none &none
- 				&none  &none &none          &mmv MOVE_UP              &none                   &none &none        &none &none &none              &none                 &none     &none &none
- 				&none  &none &mmv MOVE_LEFT &mmv MOVE_DOWN            &mmv MOVE_RIGHT         &none                    &none &mkp LCLK          &mkp MCLK             &mkp RCLK &none &none
- 				&none  &none &none          &none                     &none                   &none &none        &none &none &none              &none                 &none     &none &none
- 				&tog 4 &none &none          &mwh SCROLL_LEFT          &mwh SCROLL_RIGHT                                      &mwh SCROLL_UP     &mwh SCROLL_DOWN      &none     &none &none
- 				                                                                              &none &none        &none &none
- 				                                                      &none                   &none &none        &none &none &none
- 				                                                                                    &none        &none
-  			>;
+ 				&none  &none &none          &none            &none             &none &none        &none            &none &none              &none         &none     &none &none
+ 				&none  &none &none          &mmv MOVE_UP     &none             &none &none        &none            &none &none              &none         &none     &none &none
+ 				&none  &none &mmv MOVE_LEFT &mmv MOVE_DOWN   &mmv MOVE_RIGHT   &none                               &none &mkp LCLK          &mkp MCLK     &mkp RCLK &none &none
+ 				&none  &none &none          &none            &none             &none &none        &none            &none &none              &none         &none     &none &none
+ 				&tog 0 &none &none          &mwh SCROLL_LEFT &mwh SCROLL_RIGHT                                           &kp UARW           &kp DARW      &none     &none &none
+ 				                                                               &none &none        &mwh SCROLL_UP   &none
+ 				                                             &none             &none &none        &mwh SCROLL_DOWN &none &kp ENTER
+ 				                                                                     &none        &none
+ 
   		};
 	};
 
