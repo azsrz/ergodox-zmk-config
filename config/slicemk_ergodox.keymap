@@ -71,7 +71,7 @@
  				                                                               &none &none        &mwh SCROLL_UP   &none
  				                                             &none             &none &none        &mwh SCROLL_DOWN &none &kp ENTER
  				                                                                     &none        &none
- 
+			>;
   		};
 	};
 
