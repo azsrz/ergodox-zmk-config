@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: zmk
       remote: slicemk
-      revision: main
+      revision: v20220912-mouse
       import: app/west.yml
   self:
     path: config
